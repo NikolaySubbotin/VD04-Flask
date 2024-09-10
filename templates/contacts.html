@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}Главная страница{% endblock %}</title>
+    <title>{% block title %}Контакты{% endblock %}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
@@ -19,8 +19,8 @@
 
     <main>
         {% block content %}
-            <h1>Добро пожаловать на Главную страницу</h1>
-            <p>Это пример главной страницы вашего сайта на Flask.</p>
+            <h1>Контакты</h1>
+            <p>Свяжитесь с нами по электронной почте hello@mail.com.</p>
         {% endblock %}
     </main>
 
